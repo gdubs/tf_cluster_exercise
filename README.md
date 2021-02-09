@@ -4,6 +4,7 @@
 [ ] Do we use kubernetes provider with aws?
 
 ### TODO
-[ ] Create VPC
-[ ] Create Security group
-[ ]
+[ ] ~~Create VPC with public and private subnets~~
+[ ] ~~Create Security group~~
+[ ] Create EKS cluster manually (through console)
+    [ ] Issue with roles after updating kubeconfig
