@@ -10,3 +10,7 @@ resource "aws_eks_cluster" "cluster" {
     subnet_ids = ["subnet-d69672ab", "subnet-f7ef419c", "subnet-e8ade1a4"]
   }
 }
+
+# data "aws_subnet_ids" "subnets" {
+#   vpc_id = "vpc-bf1790d4"
+# }
